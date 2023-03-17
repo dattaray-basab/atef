@@ -16,18 +16,18 @@ export default function Header() {
       </noscript>
       <div className={styles.signedInStatus}>
         <p
-          className={`nojs-show ${
-            !session && loading ? styles.loading : styles.loaded
-          }`}
+          // className={`nojs-show ${
+          //   !session && loading ? styles.loading : styles.loaded
+          // }`}
         >
           {!session && (
             <>
-              <span className={styles.notSignedInText}>
+              <span >
                 You are not signed in
               </span>
               <a
                 href={`/api/auth/signin`}
-                className={styles.buttonPrimary}
+                
                 onClick={(e) => {
                   e.preventDefault()
                   signIn()
