@@ -22,9 +22,9 @@ export default function Header() {
         >
           {!session && (
             <>
-              <span >
+              {/* <span >
                 You are not signed in
-              </span>
+              </span> */}
               <a
                 href={`/api/auth/signin`}
                 
@@ -39,17 +39,17 @@ export default function Header() {
           )}
           {session?.user && (
             <>
-              {session.user.image && (
+              {/* {session.user.image && (
                 <span
                   style={{ backgroundImage: `url('${session.user.image}')` }}
                   className={styles.avatar}
                 />
-              )}
-              <span className={styles.signedInText}>
+              )} */}
+              {/* <span className={styles.signedInText}>
                 <small>Signed in as</small>
                 <br />
                 <strong>{session.user.email ?? session.user.name}</strong>
-              </span>
+              </span> */}
               <a
                 href={`/api/auth/signout`}
                 className={styles.button}
