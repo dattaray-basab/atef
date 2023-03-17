@@ -19,13 +19,7 @@ export default function Header() {
             <Link href='/'>Home</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href='/client'>Client</Link>
-          </li>
-          <li className={styles.navItem}>
             <Link href='/admin'>Admin</Link>
-          </li>
-          <li className={styles.navItem}>
-            <Link href='/me'>Me</Link>
           </li>
         </ul>
       </nav>
