@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header>
+    <header className='w-1/4'>
       <h3>The Atef Learning Site</h3>
-      <section className='flex'>
-        <aside className='w-1/4'>
+      <section>
+        <aside>
           <ul>
             <li>
               <Link href='/learn/html'>HTML info</Link>

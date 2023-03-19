@@ -1,16 +1,15 @@
 import Header from "./header";
 import type { ReactNode } from "react";
 
-
 export default function LearnLayout({ children }: { children: ReactNode }) {
   return (
-    <>
+    <span className='flex flex-row'>
       <Header />
       <main>
-        <section className='fixed h-full w-1/4'>
-          <div className='center py-4'>{children}</div>
+        <section className='w-3/4'>
+          <div>{children}</div>
         </section>
       </main>
-    </>
+    </span>
   );
 }
