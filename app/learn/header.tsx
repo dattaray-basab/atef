@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 
-export default function Header2() {
+export default function Header() {
   return (
     <header>
       <h3>The Atef Learning Site</h3>
