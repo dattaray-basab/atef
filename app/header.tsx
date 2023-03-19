@@ -16,6 +16,7 @@ export default function Header() {
       <SessionProvider>
         <SessionBar />
       </SessionProvider>
+      <h2 className='text-2xl text-white font-bold mt-4'>Jack's Blog</h2>
       <nav>
         <ul className={styles.navItems}>
           <li className={styles.navItem}>
