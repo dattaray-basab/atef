@@ -6,11 +6,9 @@ import { SessionProvider } from "next-auth/react";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <>
-      {/* <SessionProvider> </SessionProvider> */}
       <Header />
 
       <main>{children}</main>
-      <Footer />
     </>
   );
 }

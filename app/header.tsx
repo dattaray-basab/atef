@@ -22,7 +22,7 @@ export default function Header() {
             <Link href='/'>Home</Link>
           </li>
           <li className={styles.navItem}>
-            <Link href='/learning'>Atef's Learning Site</Link>
+            <Link href='/learn'>Atef's Learning Site</Link>
           </li>
           <li className={styles.navItem}>
             <Link href='/admin'>Admin</Link>
