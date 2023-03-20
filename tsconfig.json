@@ -25,13 +25,11 @@
     ]
   },
   "include": [
-    "process.d.ts",
     "next-env.d.ts",
-    "next-auth.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "pages/index.tsx_", "pages/_app.tsx_"  ],
+  ],
   "exclude": [
     "node_modules"
   ]
