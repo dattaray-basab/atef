@@ -4,10 +4,12 @@ import "../styles/globals.css";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <div >
-      <Header />
+    <html>
+      <div>
+        <Header />
 
-      <main>{children}</main>
-    </div>
+        <main>{children}</main>
+      </div>
+    </html>
   );
 }
