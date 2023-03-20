@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header>
-      <aside className="my-5">
+      <aside className="flex my-5  w-40">
         <ul>
           <li>
             <Link href='/learn/html'>HTML</Link>
