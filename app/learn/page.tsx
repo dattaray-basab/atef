@@ -2,13 +2,11 @@
 
 export default function Learn() {
   return (
-    <>
+    <div className='flex flex-col align-middle justify-center'>
 
-      <h2>Learning Links</h2>
       <h3>
         Essential topics leading upto full stack web development using Next JS
       </h3>
-      <p>This site is built using Next </p>
-    </>
+    </div>
   );
 }

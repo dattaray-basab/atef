@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer >
       <hr />
-      <ul >
+      <ul className="flex gap-10   ">
         <li >
           <a href='https://next-auth.js.org'>Documentation</a>
         </li>

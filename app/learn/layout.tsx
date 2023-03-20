@@ -3,10 +3,10 @@ import type { ReactNode } from "react";
 
 export default function LearnLayout({ children }: { children: ReactNode }) {
   return (
-    <span className='flex flex-row'>
+    <span className='flex gap-2 flex-row mx-10'>
       <Header />
       <main>
-        <section className='w-3/4'>
+        <section >
           <div>{children}</div>
         </section>
       </main>

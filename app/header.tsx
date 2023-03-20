@@ -12,23 +12,27 @@ import SessionBar from "./sessionBar";
 export default function Header() {
   return (
     <header>
-      <SessionProvider>
-        <SessionBar />
-      </SessionProvider>
-      <h2 className='text-2xl text-white font-bold mt-4'>Jack's Blog</h2>
-      <nav>
-        <ul>
-          <li>
-            <Link href='/'>Home</Link>
-          </li>
-          <li >
-            <Link href='/learn'>Atef's Learning Site</Link>
-          </li>
-          <li >
-            <Link href='/admin'>Admin</Link>
-          </li>
-        </ul>
-      </nav>
+      <div className='flex p-4 m-auto space-x-24 justify-self-stretch align-middle '>
+        <h2 className='text-2xl text-blue-500 font-bold '>TAL</h2>
+        <SessionProvider>
+          <SessionBar />
+        </SessionProvider>
+      </div>
+      <div>
+        <nav>
+          <ul className='flex flex-row gap-10'>
+            <li>
+              <Link href='/'>Home</Link>
+            </li>
+            <li>
+              <Link href='/learn'>Atef's Learning Site</Link>
+            </li>
+            <li>
+              <Link href='/admin'>Admin</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 }
