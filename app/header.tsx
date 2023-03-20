@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 // import { signIn, signOut, useSession } from "next-auth/react";
-import styles from "./header.module.css";
 
 import { SessionProvider } from "next-auth/react";
 import SessionBar from "./sessionBar";
@@ -18,14 +17,14 @@ export default function Header() {
       </SessionProvider>
       <h2 className='text-2xl text-white font-bold mt-4'>Jack's Blog</h2>
       <nav>
-        <ul className={styles.navItems}>
-          <li className={styles.navItem}>
+        <ul>
+          <li>
             <Link href='/'>Home</Link>
           </li>
-          <li className={styles.navItem}>
+          <li >
             <Link href='/learn'>Atef's Learning Site</Link>
           </li>
-          <li className={styles.navItem}>
+          <li >
             <Link href='/admin'>Admin</Link>
           </li>
         </ul>

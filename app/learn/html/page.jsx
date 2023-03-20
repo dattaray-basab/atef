@@ -4,7 +4,7 @@ const HTMLPage = () => {
   return (
     <section>
       <div className='px-4 py-4 sm:px-6 lg:px-8'>
-        <h1 className='mb-3 text-2xl bg-slate-500 font-semibold'>HTML</h1>
+        <h1 className='mb-3 text-2xl bg-red-500 font-semibold'>HTML</h1>
         <div>
           <h1>Class View</h1>
           <br></br>
