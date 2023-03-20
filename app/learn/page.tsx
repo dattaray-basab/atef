@@ -1,4 +1,5 @@
-// import LearnLayout from "./layout";
+
+
 
 export default function Learn() {
   return (
@@ -6,6 +7,10 @@ export default function Learn() {
       <h3>
         Essential topics leading upto full stack web development using Next JS
       </h3>
+      <h2>
+        high level overview of the topics covered in this section
+      </h2>
+
     </div>
   );
 }
