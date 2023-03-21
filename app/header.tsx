@@ -4,7 +4,8 @@ import Link from "next/link";
 // import { signIn, signOut, useSession } from "next-auth/react";
 
 import { SessionProvider } from "next-auth/react";
-import SessionBar from "./sessionBar";
+
+import AuthBar from "./authBar";
 
 // The approach used in this component shows how to build a sign in and sign out
 // component that works on pages which support both client and server side
@@ -15,7 +16,7 @@ export default function Header() {
       <div className='flex p-4 m-auto space-x-24 justify-self-stretch align-middle '>
         <h2 className='text-2xl text-blue-500 font-bold '>TAL</h2>
         <SessionProvider>
-          <SessionBar />
+          <AuthBar />
         </SessionProvider>
       </div>
       <div>

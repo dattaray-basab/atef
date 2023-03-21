@@ -3,6 +3,8 @@
 import { signIn, signOut, useSession } from 'next-auth/react';
 import React from 'react'
 
+
+
 const AuthBar = () => {
       const { data: session } = useSession();
   return (
