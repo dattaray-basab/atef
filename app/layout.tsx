@@ -6,7 +6,7 @@ import Footer from "./footer";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html>
-      <div >
+      <div>
         <Header />
 
         <main>{children}</main>
