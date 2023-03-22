@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header>
       <div className='flex p-4 m-auto space-x-24 justify-self-stretch align-middle '>
-        <h2 className='text-2xl text-blue-500 font-bold '>TAL</h2>
+        {/* <h2 className='text-2xl text-blue-500 font-bold '>TAL</h2> */}
         <SessionProvider>
           <AuthBar />
         </SessionProvider>
