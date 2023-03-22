@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const LeftBar = () => {
   return (
-    <aside className='flex my-5 px-2  w-30 p-2 '>
+    <aside className='flex my-2 w-30 p-2 '>
       <ul className='flex flex-col '>
         <li>
           <Link href='/learn/html'>HTML</Link>

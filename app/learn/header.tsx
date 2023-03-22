@@ -3,8 +3,10 @@ import LeftBar from "./leftBar";
 
 export default function Header() {
   return (
-    <header>
-      <LeftBar />
-    </header>
+    <div border-2 border-black>
+      <header>
+        <LeftBar />
+      </header>
+    </div>
   );
 }
