@@ -34,6 +34,9 @@ export default function Header() {
               <Link href='/learn'>Atef's Learning Site</Link>
             </li>
             <li>
+              <Link href='/blog_posts'>Blog Posts</Link>
+            </li>
+            <li>
               <Link href='/ws'>Work Space</Link>
             </li>
             <li>
