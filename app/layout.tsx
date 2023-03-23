@@ -10,7 +10,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <div className=' bg-gray-900 text-white'>
         <Header />
         <Provider>
-          <main>{children}</main>
+          <div className= ' text-black m-1'>{children}</div>
         </Provider>
         <Footer />
       </div>

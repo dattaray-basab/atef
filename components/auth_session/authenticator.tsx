@@ -19,9 +19,8 @@ export default function Authenticator() {
           {!session && (
             <>
               <span>
-                You are not signed in
+                {/* You are not signed in */}
               </span>
-              <br></br>
               <a
                 href={`/api/auth/signin`}
                 

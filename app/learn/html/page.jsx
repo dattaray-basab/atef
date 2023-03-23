@@ -3,7 +3,7 @@ import Link from "next/link";
 const HTMLPage = () => {
   return (
     <section>
-      <div >
+      <div className=" p-1  ">
         <h1 className='mb-3 text-2xl bg-red-500 font-semibold'>HTML</h1>
         <div>
           <h1>Class View</h1>

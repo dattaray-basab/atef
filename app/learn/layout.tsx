@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 
 export default function LearnLayout({ children }: { children: ReactNode }) {
   return (
-    <div className='flex gap-2 flex-row mx-1  bg-white text-black '>
+    <div className='flex gap-2 flex-row mx-1  bg-gray-200 text-black '>
       <Header />
       <main>
         <section>
