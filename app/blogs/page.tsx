@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blogs = () => {
   return (
-    <div> Blog Posts</div>
+    <div className=' text-black bg-white'> Blog Posts</div>
   )
 }
 
