@@ -1,4 +1,4 @@
-import LeftBar from "./leftBar";
+// import LeftBar from "./leftBar";
 
 export default function Learn() {
   return (

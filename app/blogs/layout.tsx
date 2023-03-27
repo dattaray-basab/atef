@@ -1,23 +1,15 @@
-// import Image from "next/image";
-// import Link from "next/link";
-import "styles/globals.css";
+import Header from "./header";
+import type { ReactNode } from "react";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-
+export default function LearnLayout({ children }: { children: ReactNode }) {
   return (
-    <html>
-      <head />
-      <body>
-        <div className="mx-auto  max-w-2xl px-6">
-          {/* {header} */}
-          {children}
-          {/* {footer} */}
-        </div>
-      </body>
-    </html>
+    <div className='flex gap-2 flex-row mx-1  bg-white text-black '>
+      <Header />
+      <main>
+        <section>
+          <div className='py-4 sm:px-6 lg:px-8'>{children}</div>
+        </section>
+      </main>
+    </div>
   );
 }

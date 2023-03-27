@@ -2,7 +2,7 @@ import getPostMetadata from "components/mdx/getPostMetadata";
 import PostPreview from "components/mdx/PostPreview";
 
 
-const HomePage = () => {
+const BlogsPage = () => {
   const postMetadata = getPostMetadata();
   const postPreviews = postMetadata.map((post) => (
     <PostPreview key={post.slug} {...post} />
@@ -13,4 +13,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default BlogsPage;
