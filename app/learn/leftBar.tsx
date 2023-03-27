@@ -5,7 +5,7 @@ const LeftBar = () => {
     <aside className='flex my-2 w-30 p-2 '>
       <ul className='flex flex-col '>
         <li>
-          <Link href='/learn/html'>HTML</Link>
+          <Link href='/learn/html' >HTML</Link>
         </li>
         <li>
           <Link href='/learn/js'>Java Script</Link>
