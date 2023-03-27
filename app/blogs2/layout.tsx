@@ -1,7 +1,7 @@
 import Header from "./header";
 import type { ReactNode } from "react";
 
-export default function LearnLayout({ children }: { children: ReactNode }) {
+export default function BlogsLayout({ children }: { children: ReactNode }) {
   return (
     <div className='flex gap-2 flex-row mx-1  bg-white text-black '>
       <Header />

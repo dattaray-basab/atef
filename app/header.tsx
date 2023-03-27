@@ -16,17 +16,13 @@ export default function Header() {
   return (
     <header>
       <div className='flex p-4 m-auto space-x-24 justify-self-stretch align-middle '>
-        {/* <h2 className='text-2xl text-blue-500 font-bold '>TAL</h2> */}
-        {/* <SessionProvider>
-          <AuthBar />
-        </SessionProvider> */}
         <Provider>
           <Authenticator></Authenticator>
         </Provider>
       </div>
       <div>
         <nav>
-          <ul className='flex flex-row gap-10'>
+          <ul className='flex flex-row gap-10 m-2'>
             <li>
               <Link href='/'>Home</Link>
             </li>
