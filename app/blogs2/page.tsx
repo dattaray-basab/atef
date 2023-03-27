@@ -1,12 +1,15 @@
+import getPostMetadata from "components/mdx/getPostMetadata";
+import PostPreview from "components/mdx/PostPreview";
 
 
 const BlogsPage = () => {
-
+  const postMetadata = getPostMetadata();
+  const postPreviews = postMetadata.map((post) => (
+    <PostPreview key={post.slug} {...post} />
+  ));
 
   return (
-    <div>
-      <h1>blogs2</h1>
-    </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{postPreviews}</div>
   );
 };
 
