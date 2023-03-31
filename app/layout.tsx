@@ -7,7 +7,7 @@ import Provider from "../components/auth_session/provider";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html>
-      <div className=' bg-gray-900 text-white'>
+      <div className=' bg-gray-900 text-white p-2' >
         <Header />
         <Provider>
           <main>{children}</main>

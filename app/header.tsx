@@ -15,12 +15,12 @@ import Provider from "../components/auth_session/provider";
 export default function Header() {
   return (
     <header>
-      <div className='flex p-4 m-auto space-x-24 justify-self-stretch align-middle '>
+      {/* <div className='flex p-4 m-auto space-x-24 justify-self-stretch align-middle '>
         <Provider>
           <Authenticator></Authenticator>
         </Provider>
-      </div>
-      <div>
+      </div> */}
+      <div className="p-4">
         <nav>
           <ul className='flex flex-row gap-10 m-2'>
             <li>
@@ -32,12 +32,12 @@ export default function Header() {
             <li>
               <Link href='/blogs'>Blog Posts</Link>
             </li>
-            <li>
+            {/* <li>
               <Link href='/ws'>Work Space</Link>
             </li>
             <li>
               <Link href='/admin'>Admin</Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
