@@ -13,7 +13,7 @@ Styling frameworks such as Chakra use React components for cards, tabs, etc. In 
 
 Whereas tailwind commands in plain HTML document use the keyword "class" in React and NextJS the keyword "className" is used. However, the rest of the Tailwind syntax is the same for plain HTML and React/NextJS based applications. Moreover, the setup for using Tailwind in React and NextJS is somewhat simpler as these frameworks utilize the basic Tailwind setup commands. Furthermore, NextJS uses the Tailwind Just In Time tool to improve development time performance.
 
-References:
+# References:
 
 [Tailwind Official Site](https://tailwindcss.com/)
 
