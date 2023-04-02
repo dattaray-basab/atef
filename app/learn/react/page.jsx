@@ -1,11 +1,10 @@
+import Image from "next/image";
+
 const ReactPage = () => {
   return (
     <section>
-      <div>
-        <h1>React</h1>
-        <div>
-          <p>js...</p>
-        </div>
+      <div className='h-96 w-96 relative'>
+        <Image src='/app/images/timeline.png' fill />
       </div>
     </section>
   );
