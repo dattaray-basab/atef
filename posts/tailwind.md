@@ -1,19 +1,19 @@
 ---
 title: "Tailwind CSS"
 subtitle: "Using Tailwind in React and NextJS"
-date: "2023-03-2023"
+date: "2023-04-16"
 
 ---
 
-# Summary
+## ***Tailwind Summary***
 
-Tailwind comprises of a set of utility classes for generating CSS style sheets for styling HTML/JavaScript based applications including those that use React and NextJS frameworks/libraries. In fact, for in the case of NextJS, Tailwind is the preferred styling tool as it can style sites using both client-side and server-side rendering. This site too has been styled using tailwind.
+**Tailwind** comprises of a set of utility classes for generating *CSS* style sheets for styling *HTML/JavaScript* based applications including those that use *React* and *NextJS* frameworks/libraries. In fact, for in the case of *NextJS*, **Tailwind** is the preferred styling tool as it can style sites using both client-side and server-side rendering. This site too has been styled using **Tailwind**.
 
-Styling frameworks such as Chakra use React components for cards, tabs, etc. In contrast, Tailwind uses low level utility classes to achieve the same effect albeit with more flexibility.
+Styling frameworks such as *Chakra* use *React* components for cards, tabs, etc. In contrast, **Tailwind** uses low level utility classes to achieve the same effect albeit with more flexibility.
 
-Whereas tailwind commands in plain HTML document use the keyword "class" in React and NextJS the keyword "className" is used. However, the rest of the Tailwind syntax is the same for plain HTML and React/NextJS based applications. Moreover, the setup for using Tailwind in React and NextJS is somewhat simpler as these frameworks utilize the basic Tailwind setup commands. Furthermore, NextJS uses the Tailwind Just In Time tool to improve development time performance.
+Whereas **Tailwind** commands in plain *HTML* document use the keyword "class" in *React* and *NextJS* the keyword "className" is used. However, the rest of the **Tailwind** syntax is the same for plain HTML and *React/NextJS* based applications. Moreover, the setup for using **Tailwind** in *React* and *NextJS* is somewhat simpler as these frameworks utilize the basic **Tailwind** setup commands. Furthermore, *NextJS* uses the **Tailwind** Just In Time tool to improve development time performance.
 
-# References:
+## ***References***:
 
 [Tailwind Official Site](https://tailwindcss.com/)
 

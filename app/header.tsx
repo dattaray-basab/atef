@@ -13,7 +13,7 @@ import Provider from "../components/auth_session/provider";
 // component that works on pages which support both client and server side
 // rendering, and avoids any flash incorrect content on initial page load.
 export default function Header() {
-  return (
+  return (  
     <header>
       {/* <div className='flex p-4 m-auto space-x-24 justify-self-stretch align-middle '>
         <Provider>
