@@ -5,10 +5,10 @@ const LeftBar = () => {
     <aside className='flex my-2 w-30 p-2 '>
       <ul className='flex flex-col '>
         <li>
-          <Link href='/learn/html' >HTML</Link>
+          <Link href='/learn/overview' >Project Overview</Link>
         </li>
         <li>
-          <Link href='/learn/js'>Java Script</Link>
+          <Link href='/learn/perspectives'>Personal Perspectives</Link>
         </li>
         <li>
           <Link href='/learn/style-sheets'>Style Sheets</Link>
