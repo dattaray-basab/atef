@@ -20,7 +20,8 @@ The mid-2000s saw the rise of web 2.0 technologies, which enabled users to inter
 Each of these advancements have been caused by the rapidly increasing viewer demand. This had led to the explosion of evermore sophisticated frameworks and techniques. However, throughout all this progress there have been common standards such as HTML, HTTP, JavaScript, and Cascading Style Sheets. In this project I will be focusing on one way of building modern websites which uses state of the art technologies, keeping in mind that there are many frameworks available and new frameworks are constantly appearing to replace predecessors. 
 </p>
 <p>
-In researching these frameworks I ran across NextJS which is one of the leading technologies for building websites today. In fact this site is built using NextJS, which uses React for client side operations and works seamlessly with Tailwind as a styling component.
+In researching these frameworks I ran across NextJS which is one of the leading technologies for building websites today. 
+In fact this site is built using NextJS, which uses React for client side rendering and works seamlessly with Tailwind as a styling component.
 </p></p>
         </div>
       </div>
