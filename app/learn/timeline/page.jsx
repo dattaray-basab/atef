@@ -4,7 +4,7 @@ const ReactPage = () => {
   return (
     <section>
       <div className='relative h-full w-full'>
-        <Image src='/images/timeline.jpg' width={800} height={500} />
+        <Image src='/images/timeline_full.jpg' width={960} height={540} />
       </div>
     </section>
   );
