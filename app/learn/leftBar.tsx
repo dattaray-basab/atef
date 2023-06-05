@@ -17,6 +17,9 @@ const LeftBar = () => {
           <Link href='/learn/timeline'>Timeline</Link>
         </li>
         <li className='hover:underline'>
+          <Link href='/learn/architecture'>Architecture</Link>
+        </li>
+        <li className='hover:underline'>
           <Link href='/learn/glossary'>Glossary</Link>
         </li>
       </ul>
